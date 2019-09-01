@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg1"
+        android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hbd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="90dp"
+            android:text="Happy birthday to"
+            android:textColor="#CD853F"
+            android:textSize="30sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hbd"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:text="N’noeypakpo"
+            android:textColor="#EE7942"
+            android:textSize="30sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="366dp"
+            android:layout_height="320dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/nn" />
+
+    </RelativeLayout>
+</RelativeLayout>
